@@ -1,0 +1,68 @@
+<%-include('partials/header.ejs');%>
+<div class="container-fluid">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="stylesheet/cart.css">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<h3 class="feature-title">Cart List</h3>
+ 
+<div class="shopping-cart">
+ 
+  <div class="column-labels">
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+    <label class="product-line-price">Total</label>
+  </div>
+ 
+  <div class="product">
+    <div class="product-image">
+      <img src="https://discountbazaar.online/wp-content/uploads/2020/08/IMG_0560-scaled.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Nike Men's Half Pant</div>
+      <p class="product-description"> It has a lightweight, breathable mesh upper with forefoot cables for a locked-down fit.</p>
+    </div>
+    <div class="product-price">20.00</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">20.00</div>
+  </div>
+ 
+  <div class="totals">
+    <div class="totals-item">
+      <label>Subtotal</label>
+      <div class="totals-value" id="cart-subtotal">20.00</div>
+    </div>
+    <div class="totals-item">
+      <label>Tax (5%)</label>
+      <div class="totals-value" id="cart-tax">3.60</div>
+    </div>
+    <div class="totals-item">
+      <label>Shipping</label>
+      <div class="totals-value" id="cart-shipping">15.00</div>
+    </div>
+    <div class="totals-item totals-item-total">
+      <label>Grand Total</label>
+      <div class="totals-value" id="cart-total">38.60</div>
+    </div>
+  </div>
+       
+      <a href="/ordernow"><button class="checkout">Buy</button></a>
+ 
+</div>
+</div>
+<br>
+<script src="javascript/carts.js"></script>
+<%-include('partials/footer.ejs');%>

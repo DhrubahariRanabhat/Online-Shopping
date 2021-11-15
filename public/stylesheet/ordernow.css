@@ -1,0 +1,43 @@
+.ordermain{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.close {
+    color: #000;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}
+
+
+hr.new1 {
+    border-top: 2px dashed #fff;
+    margin: 0.4rem 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:#ff523b;
+    
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 1px;
+    font-size: 17px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #853e34;
+    padding: 12px;
+
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 1px;
+    font-size: 17px;
+}

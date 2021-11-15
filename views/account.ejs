@@ -1,0 +1,42 @@
+<%-include('partials/header.ejs');%>
+<link rel="stylesheet" href="stylesheet/account.css">
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <img class="resp-img" src="https://www.forestantshop.com/wp-content/uploads/2021/02/slider-web_03.png" width="100%">
+            </div>
+            <div class="col col-form">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()" class="login">Login</span>
+                        <span onclick="register()" class="login">Register</span>
+                        <hr id="indicator">
+                    </div>
+                    <form id="LoginForm">
+                        <input type="text" placeholder="Username">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Login</button>
+                        <a href="">Forget password</a>
+                    </form>
+
+                    <form id="RegForm">
+                        <input type="text" placeholder="Username">
+                        <input type="email" placeholder="Email">
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="javascript/account.js"></script>
+
+<%-include('partials/footer.ejs');%>

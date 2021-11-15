@@ -1,0 +1,196 @@
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.row-extend{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-bottom: 3%;
+}
+
+.extend-col{
+    
+    flex-basis: 60%;
+    min-width: 270px;
+
+
+} 
+ .img-res{
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+
+.btn{
+    display: inline-block;
+    background:#ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+
+}
+.btn:hover{
+    background: #563434;
+    color: #fff;
+
+}
+.workout{
+    font-size: 48px;
+    font-weight: bold;
+}
+.header .row{
+    margin-top:10px ;
+    font-family: 'Roboto Slab', serif;
+   
+}
+/* .sexy-girls{
+margin: 0 60px 10px 0;
+}
+.sexy{
+    padding-bottom: 2%;
+} */
+.small-container{
+    max-width: 1050px;
+    margin: auto;
+    
+}
+.featured-col{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.featured-col img{
+    width: 100%;
+}
+.featured-col:hover{
+    transform: translate(5px);
+}
+.feature-title{
+    text-align: center;
+    margin: 0 auto 10px;
+    position: relative;
+    line-height: 60px;
+}
+.feature-title::after{
+    content: '';
+    background: #ff523b;
+    width: 85px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.rating .fa{
+    margin-left: 7px;
+    color: #ff523b;
+}
+.productname{
+    margin-left: 7px;
+    font-weight:inherit;
+}
+
+.featured-col-top{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.featured-col-top img{
+    width: 100%;
+}
+.featured-col-top:hover{
+    transform: translate(5px);
+}
+
+.btns{
+    display: inline-block;
+    background:#ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: 15px;
+
+}
+.btns:hover{
+    background: #563434;
+    color: #fff;
+    text-decoration: none;
+
+}
+.iphone{
+    float: right;
+}
+.col-detail{
+    margin-top: 80px;
+}
+.excl{
+    margin-bottom: 30px;
+    
+}
+.i-phone13title{
+    margin-bottom: 30px;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width:400px) {
+
+    
+
+
+    .extend-col p{
+        font-size: 12px;
+    }
+    .workout{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .iphone{
+        margin-top: 120px;
+        width: 100%;
+        height: 60%;
+    }
+    .excl{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    
+
+.i-phone13title{
+    margin-bottom: 10px;
+    font-weight: bolder;
+font-size: 25px;
+
+}
+.iphonedet{
+    font-size: 10px;
+}
+.resp-title{
+    font-size: 10px;
+}
+
+}

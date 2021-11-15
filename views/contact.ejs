@@ -1,0 +1,58 @@
+<%-include('partials/header.ejs');%>
+<link rel="stylesheet" href="stylesheet/contact.css">
+<div class="container-fluid">
+<div class="row row-contact">
+    <div class="col-md-6 col-contact">
+        <div class="feature-title1 col-lg-12">Contact</div><br><br>
+        <div class="address col-md-12">Address</div>
+       <div class="details"><i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp;Baneshor, Kathmandu </div><br><br>
+        <div class="address col-md-12">Email</div>
+        <div class="details"><i class="fas fa-envelope-open-text"></i>&nbsp;&nbsp; redhunt.net</div><br>
+        <div class="address col-md-12">Phone</div>
+        <div class="details"><i class="fas fa-phone"></i>&nbsp;&nbsp; +977 9847928492</div><br>
+</div>
+
+
+<div class="col-md-6 form">
+
+    <div class="container ">
+        <form action="/action_page.php">
+          <label for="fname">Full Name</label><br>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+      
+          <label for="lname">Email Addrss</label><br>
+          <input type="text" id="lname" name="lastname" placeholder="Your email.."><br>
+
+          <label for="lname">Subject</label><br>
+          <input type="text" id="lname" name="lastname" placeholder="Your subject.."><br>
+
+      
+          <label for="country">Country</label><br>
+          <select id="country" name="country">
+            <option value="nepal">Nepal</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+
+          </select><br>
+      
+          <label for="subject">Message</label><br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+      
+          <input type="submit" value="Submit"><br>
+        </form>
+      </div>
+
+
+
+</div>
+
+</div>
+<div class="col-md-12 location">  
+<h3 class="our-location">Our Location</h3>
+<center> 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14184.237113955176!2d87.28124523408958!3d27.280018348697325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e8b6da5971d98d%3A0xf81587e1045c741f!2sBaneshwor%2056900!5e0!3m2!1sen!2snp!4v1633155646247!5m2!1sen!2snp"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</center>
+</div>
+</div>
+<%-include('partials/footer.ejs');%>
